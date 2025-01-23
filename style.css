@@ -324,3 +324,24 @@ a{
         height: 17%;
     }
 }
+
+
+@media only screen and (max-width : 914px){
+    body{
+        background-color: blueviolet;
+        height: 100%;
+    }
+
+    #sec{
+        height: 15%;
+    }
+
+    #kp{
+        height: 15%;
+    }
+
+    #contact{
+        height: 15%;
+    }
+
+}
