@@ -326,9 +326,8 @@ a{
 }
 
 
-@media only screen and (max-width : 914px){
+@media only screen and (max-width : 985px){
     body{
-        background-color: blueviolet;
         height: 100%;
     }
 
