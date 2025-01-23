@@ -326,7 +326,7 @@ a{
 }
 
 
-@media only screen and (max-width : 985px){
+@media only screen and (max-height : 985px){
     body{
         height: 100%;
     }
