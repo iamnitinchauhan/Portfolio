@@ -1,7 +1,7 @@
 var tl = gsap.timeline()
 
 tl.from('#name h1',{
-  y: -150,
+  y: -200,
   duration : .6,
   delay : 1.5,
 })
