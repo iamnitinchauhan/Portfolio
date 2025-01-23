@@ -145,10 +145,7 @@ a{
 
 
 @media screen and (max-width: 1080px){
-    body{
-        background-color: saddlebrown;
-    }
-
+    
     #name h1{
         font-size: 12vw;
         margin-top: 2vw;
@@ -191,10 +188,7 @@ a{
 
 
 @media screen and (max-width: 720px){
-    body{
-        background-color: rebeccapurple;
-    }
-
+    
     #name h1{
         font-size: 13vw;
         margin-top: 2vw;
@@ -238,10 +232,7 @@ a{
 
 
 @media screen and (max-width: 550px){
-    body{
-        background-color: orange;
-    }
-
+    
     #name{
         height: 35%;
     }
@@ -301,10 +292,7 @@ a{
 
 
 @media only screen and (max-width:360px) {
-    body{
-        background-color: rosybrown;
-    }
-
+    
     #name{
         height: 40%;
         margin-top: 5vw;
