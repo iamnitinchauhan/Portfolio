@@ -325,28 +325,3 @@ a{
     }
 }
 
-@media only screen and (max-width : 984px){
-    #name{
-        height: 20%;
-    }
-
-    #sec{
-        height: 33%;
-    }
-
-    #kp{
-        height: 20%;
-    }
-
-    #contact{
-        height: 20%;
-    }
-
-    #data{
-        font-size: 2.5vw;
-    }
-
-    #fil{
-        font-size: 2.5vw;
-    }
-}
