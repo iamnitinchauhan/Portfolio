@@ -71,6 +71,7 @@ h2 p{
 #kp h2{
     width: 70%;
     font-size: 2.5vw;
+    padding: 1vw 1vw;
 }
 
 #kaam-2{
@@ -101,7 +102,7 @@ a{
     height: 30%;
     width: 100%;
     display: flex;
-    margin-top: 1vw;
+    margin-top: 2vw;
     margin-left: 2.5vw;
 }
 
@@ -112,7 +113,7 @@ a{
 }
 
 #fil{
-    height: 80%;
+    height: 75%;
     width: 15%;
     margin-left: 1vw;
     margin-top: 1vw;
@@ -143,4 +144,195 @@ a{
 }
 
 
+@media screen and (max-width: 1080px){
+    body{
+        background-color: saddlebrown;
+    }
 
+    #name h1{
+        font-size: 12vw;
+        margin-top: 2vw;
+    }
+    #name h2{
+        font-size: 7vw;
+        line-height: 12vw;
+    }
+
+    #kp h2{
+        font-size: 3.2vw;
+        margin-top: -1.7vw;
+    }
+
+    #kaam-2{
+        font-size: 2.5vw;
+    }
+
+    #contact h2{
+        font-size: 5vw;
+        width : 25%;
+    }
+
+    #ico{
+        font-size: 3vw;
+    }
+
+    #fil{
+        font-size: 2vw;
+        width: 20%;
+    }
+
+    #data{
+        font-size: 2vw;
+        width: 30%;
+    }
+}
+
+
+
+
+@media screen and (max-width: 720px){
+    body{
+        background-color: rebeccapurple;
+    }
+
+    #name h1{
+        font-size: 13vw;
+        margin-top: 2vw;
+    }
+    #name h2{
+        font-size: 7vw;
+        line-height: 12vw;
+    }
+
+    #kp h2{
+        font-size: 3.5vw;
+        margin-top: -1vw;
+    }
+
+    #kaam-2{
+        font-size: 3vw;
+    }
+
+    #contact h2{
+        font-size: 5vw;
+        width : 24%;
+        margin-top: 1.5vw;
+    }
+
+    #ico{
+        font-size: 4vw;
+    }
+
+    #fil{
+        font-size: 2vw;
+        width: 17%;
+    }
+
+    #data{
+        font-size: 2vw;
+        width: 27%;
+    }
+}
+
+
+
+
+@media screen and (max-width: 550px){
+    body{
+        background-color: orange;
+    }
+
+    #name{
+        height: 35%;
+    }
+
+    #name h1{
+        font-size: 13vw;
+        margin-top: 5vw;
+    }
+    #name h2{
+        font-size: 7vw;
+        line-height: 12vw;
+    }
+
+    #sec{
+        height: 40%;
+    }
+    
+    #kp{
+        height: 25%;
+    }
+
+    #kp h2{
+        font-size: 3.5vw;
+        margin-top: -1.5vw;
+    }
+
+    #kaam-2{
+        font-size: 4vw;
+    }
+
+    #contact{
+        height: 20%;
+        margin-top: 2vw;
+    }
+
+    #contact h2{
+        font-size: 3.5vw;
+        width : 20%;
+        margin-top: 3vw;
+    }
+
+    #ico{
+        font-size: 4vw;
+    }
+
+    #fil{
+        font-size: 2.5vw;
+        width: 20%;
+    }
+
+    #data{
+        font-size: 2.5vw;
+        width: 25%;
+    }
+}
+
+
+
+@media only screen and (max-width:360px) {
+    body{
+        background-color: rosybrown;
+    }
+
+    #name{
+        height: 40%;
+        margin-top: 5vw;
+    }
+
+    #sec{
+        height: 25%;
+    }
+
+    #kp{
+        height: 20%;
+        padding-top: -1vw;
+    }
+
+    #kp h2{
+        font-size: 3.8vw;
+        margin-top: -4vw;
+    }
+
+    #kaam-2{
+        font-size: 3vw;
+    }
+    
+    #ico{
+        font-size: 4vw;
+    }
+
+    #contact{
+        height: 17%;
+    }
+}
