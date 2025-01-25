@@ -46,3 +46,4 @@ gsap.from('#contact',{
   }
 })
 
+console.log("project completeeeee")
