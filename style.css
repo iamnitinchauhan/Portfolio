@@ -32,7 +32,7 @@ html, body{
 }
 
 #name{
-    height: 45%;
+    height: 35%;
     width: 100%;
     font-size: 5vw;
     letter-spacing: 2px;
@@ -58,8 +58,9 @@ h2 p{
 }
 
 #sec{
+    margin-top: 5vw;
+    height: 80%;
     width: 100%;
-    height: 90%;
     margin-bottom: 2vw;
 }
 
@@ -68,8 +69,6 @@ h2 p{
     height: 100%;
     aspect-ratio: 16/9;
     object-fit: contain;
-    position: center;
-    opacity: .85;
 }
 
 #kp{
@@ -168,6 +167,10 @@ a{
         line-height: 12vw;
     }
 
+    #sec{
+        height: 50%;
+    }
+
     #kp h2{
         font-size: 3.2vw;
         margin-top: -1.7vw;
@@ -209,6 +212,10 @@ a{
     #name h2{
         font-size: 7vw;
         line-height: 12vw;
+    }
+
+    #sec{
+        height: 25%;
     }
 
     #kp h2{
@@ -260,7 +267,7 @@ a{
     }
 
     #sec{
-        height: 40%;
+        height: 20%;
     }
     
     #kp{

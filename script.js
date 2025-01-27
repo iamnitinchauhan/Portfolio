@@ -16,6 +16,10 @@ tl.from('#name p ',{
   duration : .2,
 })
 
+tl.from('#sec', {
+  opacity : 0,
+})
+
 
 gsap.from('#kp h2',{
   scale : .7,
@@ -45,5 +49,3 @@ gsap.from('#contact',{
     scrub : 2,
   }
 })
-
-console.log("project completeeeee")
