@@ -158,6 +158,10 @@ a{
 
 @media screen and (max-width: 1080px){
     
+#name{
+    height: 18%;
+}
+
     #name h1{
         font-size: 12vw;
         margin-top: 2vw;
@@ -168,7 +172,11 @@ a{
     }
 
     #sec{
-        height: 50%;
+        height: auto;
+    }
+
+    #kp{
+        height: 24%;
     }
 
     #kp h2{
@@ -178,6 +186,10 @@ a{
 
     #kaam-2{
         font-size: 2.5vw;
+    }
+
+    #contact{
+        height: 18%;
     }
 
     #contact h2{
@@ -201,139 +213,84 @@ a{
 }
 
 
-
-
-@media screen and (max-width: 720px){
-    
-    #name h1{
-        font-size: 13vw;
-        margin-top: 2vw;
-    }
-    #name h2{
-        font-size: 7vw;
-        line-height: 12vw;
-    }
-
-    #sec{
-        height: 25%;
-    }
-
-    #kp h2{
-        font-size: 3.5vw;
-        margin-top: -1vw;
-    }
-
-    #kaam-2{
-        font-size: 3vw;
-    }
-
-    #contact h2{
-        font-size: 5vw;
-        width : 24%;
-        margin-top: 1.5vw;
-    }
-
-    #ico{
-        font-size: 4vw;
-    }
-
-    #fil{
-        font-size: 2vw;
-        width: 17%;
-    }
-
-    #data{
-        font-size: 2vw;
-        width: 27%;
-    }
-}
-
-
-
-
-@media screen and (max-width: 550px){
+@media only screen and (max-width: 769px){
     
     #name{
-        height: 35%;
-    }
-
-    #name h1{
-        font-size: 13vw;
-        margin-top: 5vw;
-    }
-    #name h2{
-        font-size: 7vw;
-        line-height: 12vw;
+        height: 15%;
     }
 
     #sec{
-        height: 20%;
+        height: auto;
     }
-    
+
     #kp{
-        height: 25%;
+        height: 24%;
     }
 
-    #kp h2{
-        font-size: 3.5vw;
-        margin-top: -1.5vw;
-    }
-
-    #kaam-2{
-        font-size: 4vw;
-    }
 
     #contact{
         height: 20%;
-        margin-top: 2vw;
     }
 
-    #contact h2{
-        font-size: 3.5vw;
-        width : 20%;
-        margin-top: 3vw;
-    }
 
-    #ico{
-        font-size: 4vw;
-    }
-
-    #fil{
-        font-size: 2.5vw;
-        width: 20%;
-    }
-
-    #data{
-        font-size: 2.5vw;
-        width: 25%;
-    }
 }
 
 
+
+@media only screen and (max-width: 480px){
+    
+body{
+    height: 80%;
+}
+
+#name{
+    height: 12%;
+    margin: 1vh 1vh;
+}
+
+#sec{
+    height: auto;
+}
+
+#kp{
+    height: 18%;
+}
+
+#contact{
+    height: 15%;
+    margin-top: 2vh;
+}
+
+}
 
 @media only screen and (max-width:360px) {
     
+    body{
+        height: 80%;
+    }
+
     #name{
-        height: 40%;
-        margin-top: 5vw;
+        height: 15%;
     }
 
     #sec{
-        height: 25%;
+        height: 30%;
+        margin-top: 5vh;
+        margin-bottom: 4vh;
     }
 
     #kp{
-        height: 20%;
-        padding-top: -1vw;
+        height: 14%;
     }
 
     #kp h2{
-        font-size: 3.8vw;
-        margin-top: -4vw;
+        font-size: 3.2vw;
+        margin-top: -5.5vw;
     }
 
     #kaam-2{
         font-size: 3vw;
+        margin-top: -2.3vw;
     }
     
     #ico{
@@ -341,7 +298,10 @@ a{
     }
 
     #contact{
-        height: 17%;
+        height: 12%;
     }
+
+
+
 }
 
